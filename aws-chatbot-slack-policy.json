@@ -1,0 +1,18 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "chatbot:CreateSlackChannelConfiguration",
+                "chatbot:DescribeSlackChannels",
+                "chatbot:DescribeSlackChannelConfigurations",
+                "chatbot:DescribeSlackWorkspaces",
+                "chatbot:GetSlackOauthParameters",
+                "chatbot:RedeemSlackOauthCode",
+                "iam:ListRoles"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
